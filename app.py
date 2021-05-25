@@ -15,6 +15,10 @@ def hello_world():
 def prueb():
     return "hola pee"
 
+@app.route('/doc.jpg')
+def doc():
+    return "hola pee"
+
 @app.route('/cat.jpg')
 def cat():
     width = request.args.get('width')
