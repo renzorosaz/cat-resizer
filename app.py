@@ -11,13 +11,13 @@ app = Flask(__name__)
 def hello_world():
     return "hello world  +1 +2 +4 +5 ++6"
 
-@app.route('/prueb.jpg')
+@app.route('/primerapi')
 def prueb():
-    return "hola pee"
+    return "hola pee apisito"
 
-@app.route('/doc.jpg')
+@app.route('/samanta')
 def doc():
-    return "hola pee"
+    return "Espero que te encuentres bien, te comparto este detalle bebesitaaa, espero que nos podamos ver más adelante"
 
 @app.route('/cat.jpg')
 def cat():
