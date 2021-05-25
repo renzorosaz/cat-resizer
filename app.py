@@ -11,6 +11,10 @@ app = Flask(__name__)
 def hello_world():
     return "hello world  +1 +2 +4 +5 ++6"
 
+@app.route('/prueb.jpg')
+def prueb():
+    return "hola pee"
+
 @app.route('/cat.jpg')
 def cat():
     width = request.args.get('width')
